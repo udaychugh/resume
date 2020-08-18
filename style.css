@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+	
+}
+html{
+	resize:none;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+	
+}
+
+.white{
+    background: white;
+    padding: 50px 0;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.main-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.box{
+    background: #000;
+    height: 50px;
+    width: 30px;
+    margin-top: -75px;
+    position: relative;
+    color: black;
+}
+
+.box:before{
+    
+}
+
+.details{
+    flex-flow: column;
+    margin-left: -100px;
+}
+
+.details h1{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin-bottom: 12px;
+}
+
+.details h3{
+    text-transform: capitalize;
+    color: #4f90cd;
+    margin-bottom: 12px;
+}
+
+.image{
+    margin-right: 100px;
+}
+
+.image img{
+    height: 150px;
+    width: 150px;
+    border: 4px solid #4f90cd;
+    border-radius: 50%;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.image img:hover{
+    transform: scale(1.1);
+}
+
+.contact{
+    margin-right: 20px;
+    text-align: right;
+}
+
+.contact p{
+    padding: 10px;
+}
+
+hr{
+    position: relative;
+    border: none;
+    height: 5px;
+    background: black;
+}
+
+.blue-box{
+    background: #4f90cd;
+    height: 50px;
+    width: 30px;
+    position: relative;
+    color: #4f90cd;
+}
+
+.education{
+    padding: 0px 40px;
+    margin-bottom: 20px;
+}
+
+.primary h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+.education p{
+    color: #4f90cd;
+}
+
+education li{
+    list-style-type: circle;
+    
+}
+
+.education ul{
+    margin-left: 20px;
+}
+
+.aligning{
+    display: flex;
+}
+
+.second-box h1{
+    padding: 20px 50px;
+}
+
+.skills mark{
+    background: #8c8c8c;
+    color: white;
+    border-radius: 3px;
+    padding: 4px;
+    margin: 4px;
+}
+
+.secondary h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.gap{
+    margin-bottom: 20px;
+}
+
+.second-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondary{
+    padding-right: 40px;
+    padding-top: 15px;
+}
+
+.hgap{
+    margin-bottom: 20px;
+}
+
+.pstyle p{
+    font-style: italic;
+    color: gray;
+}
+
+.pstyle2{
+    font-style: italic;
+    color: gray;
+}
+
+
+.skills a{
+    color: #4f90cd;
+    transition: color 0.3s linear;
+}
+
+.skills a:hover{
+    color: red;
+}
+
+.pbold p{
+    font-weight: 600;
+}
+
+.dot{
+    height: 5px;
+    width: 5px;
+    background-color: #4f90cd;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
+
+.download a{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+.download a:hover{
+    background-color: #4f90cd;
+    color: white;
+    
+}
+
+.download{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
